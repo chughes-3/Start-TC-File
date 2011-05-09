@@ -1,0 +1,12 @@
+#additions to Global gitignore#
+*/Properties/*
+!*/Properties/AssemblyInfo.cs
+*.resx
+#Initially used below to capture exe at major release points but a better way
+#is to force (-f) git add it on the occasion that it is needed Same with the manifest
+#*/bin/*
+#*/bin/Debug/*
+#*/bin/Release/*
+#!*/bin/Debug/Start_Tax-Aide_Drive.exe.manifest
+#!*/bin/Debug/Start_Tax-Aide_Drive.exe
+bin/
